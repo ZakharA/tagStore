@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
-import UploadImage from './UploadImage';
+import TagSrearch from './TagSearch';
 
 const { Header, Footer, Content } = Layout;
 
 function App() {
   return (
     <div className="App">
-     <UploadImage />
+     <TagSrearch />
       {/* <Header>Header</Header>
       <Content>Content</Content>
       <Footer>Footer</Footer> */}
