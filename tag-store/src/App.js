@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
-import SignUp from './SignUp';
+import UploadImage from './UploadImage';
 
 const { Header, Footer, Content } = Layout;
 
 function App() {
   return (
     <div className="App">
-     <SignUp />
+     <UploadImage />
       {/* <Header>Header</Header>
       <Content>Content</Content>
       <Footer>Footer</Footer> */}
